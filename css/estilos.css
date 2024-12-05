@@ -1,0 +1,15 @@
+header > a { /* Afeta tags a filhas de tags header */
+	color: white; /* Define cor do texto para branco */
+}
+
+header > a:hover { /* Afeta tags a com o cursor por cima, filhas de tag header */
+	color: white; /* Define cor do texto para branco */
+	text-decoration: none; /* Remove underline */
+}
+
+img.card-img-top { /* Afeta imgs com classe card-img-top */
+	height: 200px; /* Define a altura em pixel */
+	object-fit: cover; /* Faz com que a imagem cubra sem ser redimensionada desproporcionalmente */
+	overflow: hidden; /* Oculta vazamento para fora do elemento pai */
+	width: auto; /* Define a largura de forma proporcional */
+}

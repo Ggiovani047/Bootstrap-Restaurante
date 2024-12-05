@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para suportar caracteres especiais (acentos, etc.) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Garante que o site seja responsivo e se adapte ao tamanho da tela do dispositivo -->
+    <title>Cardápio - Restaurante Fatecano</title> <!-- Título da página que aparece na aba do navegador -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> <!-- Link para o arquivo CSS do Bootstrap 4 -->
+    <link href="css/estilos.css" rel="stylesheet"> <!-- Importa um arquivo CSS customizado -->
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header class="bg-danger text-white text-center py-3">
+        <!-- bg-danger: cor de fundo vermelha, text-white: texto branco, text-center: centraliza o texto, py-3: espaçamento vertical -->
+        <a href="index.html"><h1>Restaurante Fatecano</h1></a> <!-- Nome do restaurante, em destaque, com link que leva a homepage -->
+        <p>A experiência gastronômica que todo fatecano deseja ter.</p> <!-- Mensagem de boas-vindas -->
+    </header>
+
+	<div class="container my-4"> <!-- Seção principal do conteúdo, centralizada com margem vertical -->
+        <div class="row mt-5"> <!-- Linha para organizar o conteúdo com margem superior -->
+            <div class="col-12"> <!-- Coluna que ocupa toda a largura disponível -->
+                <h2>Cardápio</h2> <!-- Título da seção do cardápio -->
+                <p>Confira nossas deliciosas opções para o seu pedido!</p> <!-- Descrição breve do cardápio -->
+                
+                <h3 class="py-3">Lanches</h3> <!-- Título da subseção de lanches com espaçamento vertical -->
+
+                <div class="row"> <!-- Início da linha para os itens do cardápio -->
+                    <!-- Cada 'col-md-4' ocupa 4 colunas em telas médias, permitindo 3 itens por linha -->
+                    
+                    <div class="col-md-4 mb-4"> <!-- Card 1: coluna para o primeiro item do cardápio -->
+                        <div class="card"> <!-- Início do card -->
+                            <img src="imagens/cachorro-quente.jpg" class="card-img-top" alt="Lanche 1"> <!-- Imagem do prato -->
+                            <div class="card-body"> <!-- Corpo do card -->
+                                <h5 class="card-title">Cachorro-quente</h5> <!-- Nome do prato -->
+                                <p class="card-text">Pão, salsicha, molho de tomate, batata palha e maionese.</p> <!-- Descrição do prato -->
+                                <p class="card-text"><strong>R$ 10,00</strong></p> <!-- Preço do prato -->
+                            </div> <!-- Fim do corpo do card -->
+                        </div> <!-- Fim do card -->
+                    </div> <!-- Fim da coluna do card 1 -->
+
+                    <div class="col-md-4 mb-4"> <!-- Card 2 -->
+                        <div class="card">
+                            <img src="imagens/misto-quente.avif" class="card-img-top" alt="Lanche 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Misto-quente</h5>
+                                <p class="card-text">Pão de forma recheado com presunto e queijo, tostado na chapa.</p>
+                                <p class="card-text"><strong>R$ 8,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 3 -->
+                        <div class="card">
+                            <img src="imagens/hamburguer.webp" class="card-img-top" alt="Lanche 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Hambúrguer</h5>
+                                <p class="card-text">Pão, hambúrguer de carne ou frango, queijo, alface, tomate e molho especial.</p>
+                                <p class="card-text"><strong>R$ 15,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class="col-md-4 mb-4"> <!-- Card 4 -->
+                        <div class="card">
+                            <img src="imagens/batata-frita.webp" class="card-img-top" alt="Lanche 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Batata frita</h5>
+                                <p class="card-text">Porção com cheddar e bacon.</p><br>
+                                <p class="card-text"><strong>R$ 25,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 5 -->
+                        <div class="card">
+                            <img src="imagens/espetinho.jpg" class="card-img-top" alt="Lanche 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Espetinho</h5>
+                                <p class="card-text">Em variações de carne bovina, suína, frango ou vegano.</p>
+                                <p class="card-text"><strong>R$ 8,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 6 -->
+                        <div class="card">
+                            <img src="imagens/pastel.jpg" class="card-img-top" alt="Lanche 6">
+                            <div class="card-body">
+                                <h5 class="card-title">Pastel</h5>
+                                <p class="card-text">Em variações de carne bovina, frango ou pizza.</p>
+                                <p class="card-text"><strong>R$ 11,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 7 -->
+                        <div class="card">
+                            <img src="imagens/coxinha.jpg" class="card-img-top" alt="Lanche 7">
+                            <div class="card-body">
+                                <h5 class="card-title">Coxinha de frango</h5>
+                                <p class="card-text">Por cima ou por baixo, você que decide.</p><br>
+                                <p class="card-text"><strong>R$ 6,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 8 -->
+                        <div class="card">
+                            <img src="imagens/quibe.avif" class="card-img-top" alt="Lanche 8">
+                            <div class="card-body">
+                                <h5 class="card-title">Quibe</h5>
+                                <p class="card-text">Em variações de carne, catupiry ou cheddar.</p>
+                                <p class="card-text"><strong>R$ 6,00</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fim da linha de lanches -->
+                    
+                <h3 class="py-3">Bebidas</h3> <!-- Título da subseção de bebidas com espaçamento vertical -->
+
+                <div class="row"> <!-- Início da linha para os itens de bebidas -->
+                    <div class="col-md-4 mb-4"> <!-- Card 1 de bebidas -->
+                        <div class="card">
+                            <img src="imagens/refrigerante.webp" class="card-img-top" alt="Bebida 1"> <!-- Imagem do refrigerante -->
+                            <div class="card-body">
+                                <h5 class="card-title">Refrigerante em lata</h5> <!-- Nome da bebida -->
+                                <p class="card-text">Coca-Cola, Pepsi, Fanta, Guaraná Antarctica ou Sprite.</p> <!-- Descrição da bebida -->
+                                <p class="card-text"><strong>R$ 4,00</strong></p> <!-- Preço da bebida -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 2 de bebidas -->
+                        <div class="card">
+                            <img src="imagens/suco-natural.webp" class="card-img-top" alt="Bebida 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Suco natural</h5> <!-- Nome do suco -->
+                                <p class="card-text">Laranja, maracujá, morango ou acerola.</p><br> <!-- Descrição do suco -->
+								<p class="card-text"><strong>R$ 8,00</strong></p> <!-- Preço do suco -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 3 de bebidas -->
+                        <div class="card">
+                            <img src="imagens/cerveja.png" class="card-img-top" alt="Bebida 3"> <!-- Imagem da cerveja -->
+                            <div class="card-body">
+                                <h5 class="card-title">Cerveja em lata</h5> <!-- Nome da cerveja -->
+                                <p class="card-text">Brahma, Itaipava, Skol, Antarctica ou Eisenbahn.</p> <!-- Descrição da cerveja -->
+                                <p class="card-text"><strong>R$ 5,00</strong></p> <!-- Preço da cerveja -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 4 de bebidas -->
+                        <div class="card">
+                            <img src="imagens/caipirinha.webp" class="card-img-top" alt="Bebida 4"> <!-- Imagem da caipirinha -->
+                            <div class="card-body">
+                                <h5 class="card-title">Caipirinha</h5> <!-- Nome da caipirinha -->
+                                <p class="card-text">Limão, morango, maracujá ou pinga.</p> <!-- Descrição da caipirinha -->
+                                <p class="card-text"><strong>R$ 14,00</strong></p> <!-- Preço da caipirinha -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4"> <!-- Card 5 de bebidas -->
+                        <div class="card">
+                            <img src="imagens/agua.jpg" class="card-img-top" alt="Bebida 5"> <!-- Imagem da água mineral -->
+                            <div class="card-body">
+                                <h5 class="card-title">Água mineral</h5> <!-- Nome da água mineral -->
+                                <p class="card-text">Com ou sem gás.</p> <!-- Descrição da água mineral -->
+                                <p class="card-text"><strong>R$ 3,00</strong></p> <!-- Preço da água mineral -->
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fim da linha de bebidas -->
+            </div> <!-- Fim da coluna que contém o cardápio -->
+        </div> <!-- Fim da linha principal -->
+    </div> <!-- Fim do contêiner principal -->
+    
+    <!-- Rodapé do site -->
+    <footer class="bg-danger text-white text-center py-3">
+        <!-- bg-danger: cor de fundo vermelha, text-white: texto branco, text-center: centraliza o texto, py-3: espaçamento vertical -->
+        <p style="margin-bottom: 0px;">&copy; 2024 Restaurante Fatecano.</p> <!-- Texto de copyright -->
+        <address style="margin-top: 0px;">Rua Pedro Antônio Gimenes, 1-208 - Jardim Pedro Ometto, Jaú - SP</address><!-- Endereço do restaurante -->
+    </footer>
+</body>
+</html>
